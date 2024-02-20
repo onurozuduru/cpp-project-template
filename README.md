@@ -20,32 +20,32 @@ create_cpp_project /path/to/new_project
 ## Template Structure
 
 ```bash
- TemplateProject/
-├──  .clang-format
-├──  .gitignore
-├──  build.sh*
-├──  CMakeLists.txt
-├──  exe/
-│  ├──  CMakeLists.txt
-│  ├──  include/
-│  │  └──  logger.h
-│  └──  source/
-│     ├──  logger.cpp
-│     └──  main.cpp
-├──  libs/
-│  ├──  CMakeLists.txt
-│  └──  examplelib/
-│     ├──  CMakeLists.txt
-│     ├──  include/
-│     │  └──  examplelib.h
-│     └──  source/
-│        └──  examplelib.cpp
-└──  test/
-   ├──  CMakeLists.txt
-   └──  libs/
-      ├──  CMakeLists.txt
-      └──  examplelib/
-         └──  examplelib_test.cpp
+TemplateProject/
+├── .clang-format
+├── .gitignore
+├── build.sh*
+├── CMakeLists.txt
+├── exe/
+│  ├── CMakeLists.txt
+│  ├── include/
+│  │  └── logger.h
+│  └── source/
+│     ├── logger.cpp
+│     └── main.cpp
+├── libs/
+│  ├── CMakeLists.txt
+│  └── examplelib/
+│     ├── CMakeLists.txt
+│     ├── include/
+│     │  └── examplelib.h
+│     └── source/
+│        └── examplelib.cpp
+└── test/
+   ├── CMakeLists.txt
+   └── libs/
+      ├── CMakeLists.txt
+      └── examplelib/
+         └── examplelib_test.cpp
 ```
 
 ## Project Build Script
