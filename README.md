@@ -10,7 +10,7 @@ It is possible to create link to the script under a directory under `$PATH`, by 
 # Give execute permission
 chmod +x create_cpp_project
 
-# Link script under ~/.local/bin for convince
+# Link script under ~/.local/bin for convenience
 ./create_cpp_project.sh --install
 
 # Create new project
