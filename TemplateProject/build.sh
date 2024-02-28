@@ -41,12 +41,12 @@ clean_build_dir() {
 }
 
 print_help() {
-    printf 'Usage: %s [--build-type <Release|RelWithDebInfo|Debug>] [--clean] [--with-tests] [--cmake-additional-args | -a <ARGUMENTS> ] [--help | -h]\n' "$0"
+    printf 'Usage: %s [--build-type <Release|RelWithDebInfo|Debug>] [--clean] [--with-tests] [--additional-args | -a <ARGUMENTS> ] [--help | -h]\n' "$0"
     printf 'Build this project under directory: %s\n' "${BUILD_DIR}"
     printf '\t--build-type\t\tBuild type <Release|RelWithDebInfo|Debug>. Default: %s \n' "${BUILD_TYPE}"
     printf '\t--clean\t\t\tClean build, remove build directory before building.\n'
     printf '\t--with-tests\t\tBuild with tests.\n'
-    printf '\t-a,--additional-args\tAdditonal arguments to pass to CMake. Example: --cmake-additional-args "-t test"\n'
+    printf '\t-a,--additional-args\tAdditonal arguments to pass to CMake. Example: --additional-args "-t test"\n'
     printf '\t-h,--help\t\tDisplay help.\n'
 }
 
