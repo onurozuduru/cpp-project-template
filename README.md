@@ -1,6 +1,8 @@
 # cpp-project-template
 Project template for c++, includes a build script, example cmake files and [googletest](https://github.com/google/googletest) setup.
 
+![cpp-project-template.gif](https://github.com/onurozuduru/cpp-project-template/assets/2547436/3dd83ecc-a9ce-4942-a1bd-332f8b0715c9)
+
 ## Create New Project
 
 `create_cpp_project.sh` copies the template to the given path and sets project name in cmake file.
